@@ -41,7 +41,31 @@ body {
   padding: 0rem 5rem;
 }
 
+.card .icecream {
+  min-height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .card .icecream img {
   width: 20rem;
+  z-index: 2;
+}
+
+.card .circle {
+  width: 20rem;
+  height: 20rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 66, 66, 0.7)), to(rgba(255, 248, 66, 0.7)));
+  background: linear-gradient(to right, rgba(255, 66, 66, 0.7), rgba(255, 248, 66, 0.7));
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
 }
 /*# sourceMappingURL=style.css.map */
