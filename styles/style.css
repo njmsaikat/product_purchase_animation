@@ -104,4 +104,25 @@ body {
   cursor: pointer;
 }
 
+.card button.active {
+  background: #585858;
+  color: #fff;
+}
 
+.card .purchase {
+  margin-top: 5rem;
+}
+
+
+.card .purchase button {
+  width: 100%;
+  padding: 1rem 0rem;
+  background: #ff4242b3;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;
+  font-size: larger;
+}
+/*# sourceMappingURL=style.css.map */
